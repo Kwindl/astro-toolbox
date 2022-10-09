@@ -1,0 +1,4 @@
+import Image
+im = Image.open('gameicon2.png')
+pixels = list(im.getdata())
+print(pixels)
